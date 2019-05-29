@@ -1,0 +1,6 @@
+Buid Jar file:
+mvn install
+mvn clean compile assembly:single  --> a executable jar file will be generated with all dependencies
+
+Run Jar file:
+java -jar -Xmx512m account-summary-1.0.jar ".../accountsummary/src/main/resources/transactions_TestSet1.csv" "ACC334455" "20/10/2018 12:00:00" "20/10/2018 19:00:00"
