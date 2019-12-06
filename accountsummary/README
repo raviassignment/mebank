@@ -7,3 +7,5 @@ java -jar -Xmx512m account-summary-1.0.jar ".../accountsummary/src/main/resource
 
 Note: This readme contains compile and run instructions only. The main readme file with all the information like design, 
 instructions to run the code are provided in "README_AccountSummary.docx" which is present in the main directory.
+
+Test
