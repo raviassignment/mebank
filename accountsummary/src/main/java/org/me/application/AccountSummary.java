@@ -82,6 +82,7 @@ public class AccountSummary {
                         accountObj.setBalance(accountObj.getBalance() - transaction.getAmount());
                     else if (transaction.getToAccountId().equals(accountNum))
                         accountObj.setBalance(accountObj.getBalance() + transaction.getAmount());
+            System.out.println("Ravi Git message");
                 }
         );
         return accountTrans;
