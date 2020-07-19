@@ -108,7 +108,9 @@ public class AccountSummary {
                 accountObj.setBalance(accountObj.getBalance() - transaction.getAmount());
             }
             count.getAndIncrement();
+            System.out.println("In ....branch 2");
         });
+
         return count.get();
     }
 
