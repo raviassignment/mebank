@@ -109,7 +109,8 @@ public class AccountSummary {
             count.getAndIncrement();
             System.out.println("In ....branch 2");
             System.out.println("In ....branch 2.2");
-            System.out.println("In ....Git practice Specific");
+            System.out.println("Generic...");
+
         });
 
         return count.get();
